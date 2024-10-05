@@ -24,6 +24,7 @@ a.header_link:visited{
 .header{
     display: grid;
     grid-template-columns: 1fr;
+    width: 100%;
 }
 
 .top_line{
@@ -107,13 +108,14 @@ justify-self: end;
 
 .cookies_disclaimer{
     display: grid;
-    grid-template-columns: 70% 15% 15%;
+    grid-template-columns: 60% 25% 15%;
     align-content: center;
     color: white;
     font-size: 16px;
     background-color: black;
     height: 72px;
     margin: 25px 0 0;
+    padding-left: 20px;
 }
 
 .learn_more{
@@ -154,7 +156,7 @@ justify-self: end;
     gap:15px;
     justify-items: center;
     text-align: center;
-    margin: 30px 0;
+    margin: 30px 0 100px;
 }
 
 .block1_text{
@@ -239,4 +241,46 @@ justify-self: end;
     border: 2px solid black;
     width: 180px;
     height: 36px;
+}
+
+.buffer_frame1{
+    height: 100px;
+    width: 100%;
+}
+
+.block2{
+    background-color: #005466;
+    padding: 150px 50px;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+.mini_info_energy{
+    height: 50%;
+    width: 70%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin: 20% 10% 20%;
+    color: #F6F9E5;
+}
+
+.block2_title{
+    font-size: 55px;
+}
+
+.taste_energy{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 40%;
+}
+
+.shop-energy{
+    width: 260px;
+    height: 50px;
+    background-color: #005466;
+    border: 1px solid #F6F9E5;
+    color: #F6F9E5;
 }
