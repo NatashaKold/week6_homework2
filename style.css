@@ -4,7 +4,54 @@
     box-sizing: border-box;
 }
 
+.container{
+    font-family: "Roboto", sans-serif;
+}
+
 .header{
     display: grid;
-    
+    grid-template-columns: 1fr;
+}
+
+.top_line{
+    background-color: rgb(145, 199, 199);
+    font-size: 12;
+    height: 85px;
+    display: grid;
+    grid-template-columns: 1fr 40% 1fr;
+    grid-template-areas: 
+    "nav1 logo nav2";
+}
+
+.nav1{
+    grid-area: nav1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: start;
+    margin: 25px;
+}
+
+.nav2{
+    grid-area: nav1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: end;
+    text-align: end;
+    margin: 25px;
+}
+
+.basket{
+justify-self: end;
+}
+
+.logo{
+    grid-area: logo;
+    justify-self: center;
+    margin: 25px;
+}
+
+.nav2{
+    grid-area:nav2;
 }
