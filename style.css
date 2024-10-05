@@ -6,6 +6,9 @@
 
 a{
     text-decoration: none;
+}
+
+.header_link{
     display: flex;
     justify-content: center;
 }
@@ -61,4 +64,61 @@ justify-self: end;
 
 .nav2{
     grid-area:nav2;
+}
+
+.banner{
+    display: grid;
+    background-image: url(assets/Header_background.png);
+    height: 870px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.text_block{
+    float: left;
+    width: 30vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (3, 1fr);
+    gap: 30px;
+    margin: 10% 10% 20%;
+    color: white;
+}
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.black_button{
+    background-color: black;
+    padding: 20px 30px;
+    color: white;
+    
+}
+
+.cookies_disclaimer{
+    display: grid;
+    grid-template-columns: 70% 15% 15%;
+    align-content: center;
+    color: white;
+    font-size: 16px;
+    background-color: black;
+    height: 72px;
+    margin: 25px 0 0;
+}
+
+.learn_more{
+    align-content: start;
+}
+
+.got_it{
+    height: 150%;
+    width: 70%;
+    align-self: center;
+    justify-self: center;
 }
