@@ -8,6 +8,10 @@ a{
     text-decoration: none;
 }
 
+button{
+    cursor: pointer;
+}
+
 a.header_link:visited{
     color: black;
 }
@@ -72,6 +76,7 @@ justify-self: end;
 
 .banner{
     display: grid;
+    background-color: #005466;
     background-image: url(assets/Header_background.png);
     height: 870px;
     font-family: "Roboto", sans-serif;
@@ -80,7 +85,7 @@ justify-self: end;
 
 .text_block{
     float: left;
-    width: 30vw;
+    width: 30%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat (3, 1fr);
@@ -106,6 +111,9 @@ justify-self: end;
 }
 
 .cookies_disclaimer{
+    position: absolute;
+    top: 90%;
+    width: 100%;
     display: grid;
     grid-template-columns: 60% 25% 15%;
     align-content: center;
@@ -252,6 +260,12 @@ justify-self: end;
     padding: 150px 50px;
     display: grid;
     grid-template-columns: 55% 45%;
+}
+
+.energy-img{
+width: 100%;
+height: 100%;
+object-fit: cover;
 }
 
 .mini_info_energy{
